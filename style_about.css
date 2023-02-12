@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Rajdhani&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap'); */
+
+
+/* RESET ALL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* TAG SELECTORS */
+body {
+    background: linear-gradient(270deg, #cba565 0%, #f6cd8b 35%, #ffe9a5 100%);
+}
+
+
+caption {
+    color: #fff;
+    font-size: 1.8em;
+}
+
+nav {}
+
+
+nav #about {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin: 16px;
+}
+
+nav a {
+    color: #582C19;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #582C19;
+}
+
+/* ID SELECTORS */
+#qoute {
+    color: #582c19;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+/* CLASS SELECTORS */
+.emphasize,
+.emphasize a {
+    color: #582c19;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.emphasize a:hover {
+    color: #fff;
+}
+
+.more_about_me {
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #582C19;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4%;
+    margin-left: 8%;
+
+}
+
+.more_about_me th,
+.more_about_me td {
+    padding: 20px;
+    font-size: 1.4em;
+    background: linear-gradient(27deg, #cba565 0%, #f6cd8b 35%, #ffe9a5 100%);
+    text-align: center;
+    width: 50%;
+}
+
+.more_about_me th {
+    background-color: #582C19;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+.more_about_me td {
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-style: italic;
+}

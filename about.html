@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
+    <link rel="stylesheet" href="style_about.css">
 </head>
 
-<body style="background: linear-gradient(270deg, #cba565 0%, #f6cd8b 35%, #ffe9a5 100%);">
+<body>
     <div>
 
-        <head>
+        <header>
             <table style="width: 100%;">
                 <tr>
 
                     <td>
                         <a href="./index.html">
-                            <img src="./assets/logo/undraw_code.svg" />
+                            <img src="./assets/logo/logo.svg" />
                         </a>
                     </td>
 
@@ -29,7 +30,7 @@
                             <a href="./index.html">
                                 Home
                             </a>
-                            <a href="#" style="margin: 16px;">
+                            <a id="about" href="#">
                                 About
                             </a>
                             <a href="./contact.html">
@@ -39,39 +40,136 @@
                     </td>
                 </tr>
             </table>
-        </head>
+        </header>
     </div>
 
-    <main style="height: 80vh;">
+    <main>
         <table>
             <tr>
-                <td style="color: #582c19; font-style: italic; padding-left: 5%; padding-top: 4%;">
-                    <h1>"If You Have A Goal? Then Go Do It.<br> Or Are You Scared? Then Go Do It Scared."</h1>
+                <td id="qoute">
+                    <h1>"If You Have A Goal. Then Go Do It.<br> If You Are Scared. Then Go Do It Scared."</h1>
                 </td>
             </tr>
         </table>
-        <table style="width: 100%; margin-top: 10%;">
-            <tr>
-                <td style="color: #9a6855;" align="center" colspan="3">
-                    <h1>More About Me......</h1>
-                    <p style="font-weight: bolder;">I am currently based in Limpopo. I first got interested in coding,
-                        when I took <br>a computer science course.
-                        It introduced me to the basic concepts,<br>and even though I left after one year. I continued to
-                        practice
-                        <br>the concepts. Through Freecodecamp.org and now <br>I am part of a CodeTribe bootcamp :-)
-                        <br>
-                        <br>
-                        A long term goal, will be to be a software Engineer/
-                        <br>Full Stack Developer. In order to be as equiped as possible.
-                        <br>
-                        <br>
-                        Apart from coding however, I do have other interests, such as reading novels
-                        <br>and being a coffee/tea enthusiast. An online read, I would
-                        <br>recommend is <a href="https://dashingdon.com/play/leem/court-of-harts/mygame/" target="_blank">Court Of Harts</a>.
-                    </p>
-                </td>
-            </tr>
+
+        <table class="more_about_me">
+            <caption>Employment <span><img height="40" width="40" src="./assets/logo/briefcase.png" ></span></caption>
+            <thead>
+                <th>Intern Software Engineer, WeThinkCode</th>
+                <th>MAY 2021 - JUL 201</th>
+            </thead>
+            <tbody>
+                <td colspan="2">Worked in a team of 6 to create a web based tutorial for new <span class="emphasize" ><a href="#wethinkcode">WeThinkCode</a></span> students who haven’t been exposed to Slack and Google suite apps ( such as Gmail , Google drive). The tutorial consisted of summarized notes and a multiple choice quiz at the end.
+                    We used the following technologies: CSS, HTML, Javascript and Miro(for planning out the design).Worked in a team of 6 to create a web based tutorial for new WeThinkCode students who haven’t been exposed to Slack and Google suite apps ( such as Gmail , Google drive). The tutorial consisted of summarized notes and a multiple choice quiz at the end. We used the following technologies: CSS, HTML, Javascript and Miro(for planning out the design).
+                    <br><span class="emphasize"><a href="#skill">Skills</a>:</span> HTML · Cascading Style Sheets (CSS) · Miro Collaboration Platform · JavaScript</td>
+            </tbody>
         </table>
+        <table class="more_about_me">
+            <caption>Education<span><img  width=" 40" height="40" src="./assets/logo/mortarboard.png"></span></caption>
+            <thead>
+                <tr >
+                    <th>University Of Limpopo</th>
+                    <th>2019 - 2020</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr >
+                    <td>Mathematics And Computer</td>
+                    <td>Computer Science with the following as joint majors: Applied Mathematics, Mathematics, Statistics, and Operation Research.</td>
+                </tr>
+                
+            </tbody>
+            
+            <thead>
+                <tr>
+                    <th id="wethinkcode">WeThinkCode</th>
+                    <th>2020 - 2022</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Software Engineer</td>
+                    <td>Java - Flutter - Software Development - Python - Front-End Development</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="more_about_me">
+            <caption id="skill">Skills<span><img width="40" height="40" src="./assets/logo/skill.png"></span></caption>
+
+            <thead>
+                <tr>
+                    <th>Programming Language</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>Semi-intermediate</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Semi-intermediate</td>
+                </tr>
+                <tr>
+
+                <td>Javascript</td>
+                <td>Semi-intermediate</td>
+                </tr>
+
+                <tr>
+                    <td>Flutter & Dart</td>
+                    <td>Beginner</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="more_about_me">
+            <caption>Hobbies <span><img width="40" height="40" src="./assets/logo/game-control.png"></span></caption>
+
+            <thead>
+                <tr>
+                    <th>Reading</th>
+                    <th>Gaming</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>An avid reader of all genres (a bit hesitant on romance novels, but coming around to it).
+                <td>I game here and there, but mostly a game named <span class="emphasize"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.mobile.legends&hl=en&gl=VN">Mobile Legends</a></span></td>
+            </tbody>
+        </table>
+
+        <table class="more_about_me">
+            <caption>Language Proficiency <span><img height="40" width="40" src="./assets/logo/language.png"></span></caption>
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Proficiency</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>English</td>
+                    <td>Native Speaker</td>
+                </tr>
+                <tr>
+                    <td>Northern Sotho</td>
+                    <td>Native Speaker</td>
+                </tr>
+                <tr>
+                    <td>Xhosa</td>
+                    <td>Highly proficient</td>
+                </tr>
+                <tr>
+                    <td>Afrikaans</td>
+                    <td>Very good command</td>
+                </tr>
+            </tbody>
+        </table>
+
     </main>
     <footer>
         <table style="padding-top: 2%;">
