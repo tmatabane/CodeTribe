@@ -6,30 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="./style_index.css">
+
 </head>
 
-<body style="background: linear-gradient(90deg, #cba565 0%, #f6cd8b 35%, #ffe9a5 100%)">
-    <div>
+<body>
+    <div id="heading">
 
-        <head>
+        <header>
             <table style="width: 100%;">
                 <tr>
 
                     <td>
                         <a href="./index.html">
-                        <img src="./assets/logo/undraw_code.svg" />
+                        <img src="./assets/logo/logo.svg" />
                         </a>
                     </td>
 
                     <td align="right">
-                        <nav style="margin-right: 50px;
-                           margin-top: 16px;
-                           margin-bottom: 16px;
-                           margin-left: 50px;">
+                        <nav >
                             <a href="#">
                                 Home
                             </a>
-                            <a href="./about.html" style="margin: 16px;">
+                            <a id="about" href="./about.html">
                                 About
                             </a>
                             <a href="./contact.html">
@@ -39,27 +38,29 @@
                     </td>
                 </tr>
             </table>
-        </head>
+        </header>
     </div>
 
     <main>
-        <table width="100%" style="margin-bottom: 30px;">
+        <table id="intro">
             <tr>
-                <td colspan="2" style="background-color:  #ffe9a5;">
-                    <img width="100%" height="600px" src="./assets/logo/undraw_firmware_re_fgdy (1).svg" />
+                <!-- Video by Kelly: https://www.pexels.com/video/coffee-making-art-by-a-bartender-2909914/ -->
+                <td width="100%" colspan="2">
+                    <video src="./assets/video/video.mp4" autoplay muted loop>
+                        Video not supported on browser.
+                    </video>
                 </td>
             </tr>
 
             <tr>
-                <td style="padding-left: 20vh; padding-top: 50px; color: #ffe9a5; font-style: italic; font-weight: bolder;">
+                <td id="aboutMe">
                     <h1>Hi, I am Thato.......</h1>
                     <p>an aspiring software engineer. I have taken a huge interest in Web development lately
                         <br>and now I am in the Code Tribe bootcamp....whoop! whoop!
                     </p>
                 </td>
-                <td align="right" style="padding-right: 20vh; padding-top: 30px;">
-                    <img src="./assets/logo/T016EBFH7F0-U018EUTLJDS-d7f6199d4b14-512.jpeg"
-                        style="border-radius: 50%; object-fit: cover; border: 10px solid  #ffe9a5;" />
+                <td id="picture_of_me" align="right">
+                    <img id="picture" src="./assets/logo/T016EBFH7F0-U018EUTLJDS-d7f6199d4b14-512.jpeg"/>
                 </td>
             </tr>
         </table>
