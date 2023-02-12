@@ -99,6 +99,7 @@ video{
     font-family: 'Rajdhani', sans-serif;
     line-height: 1.8em;    
     padding-left: 20vh; 
+    padding-right: 20vh;
     font-weight: bolder; 
     color: #cba565;
 }
