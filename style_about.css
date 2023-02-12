@@ -85,6 +85,7 @@ nav a:hover {
 .more_about_me td {
     padding: 20px;
     font-size: 1.4em;
+    
     background: linear-gradient(27deg, #cba565 0%, #f6cd8b 35%, #ffe9a5 100%);
     text-align: center;
     width: 50%;
