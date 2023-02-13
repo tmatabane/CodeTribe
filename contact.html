@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact me</title>
+    <link rel="stylesheet" href="style_contact.css">
 </head>
 
-<body style="background: linear-gradient(270deg, #cba565 0%, #f6cd8b 35%, #ffe9a5 100%);">
+<body>
     <div>
 
         <head>
@@ -17,19 +18,16 @@
 
                     <td>
                         <a href="./index.html">
-                            <img src="./assets/logo/undraw_code.svg" />
+                            <img src="./assets/logo/logo.svg" />
                         </a>
                     </td>
 
                     <td align="right">
-                        <nav style="margin-right: 50px;
-                           margin-top: 16px;
-                           margin-bottom: 16px;
-                           margin-left: 50px;">
+                        <nav>
                             <a href="./index.html">
                                 Home
                             </a>
-                            <a href="./about.html" style="margin: 16px;">
+                            <a id="about" href="./about.html" style="margin: 16px;">
                                 About
                             </a>
                             <a href="#">
@@ -42,50 +40,62 @@
         </head>
     </div>
 
+
     <main>
-        <table style="width: 100%;">
-            <tr>
-                <td>
-                    <img src="./assets/logo/undraw_chatting_re_j55r.svg" height="650vh" />
-                </td>
-                <td>
-                    <h1 style="font-style: italic; margin-bottom: 20%; color: #582c19;">Contact Me</h1>
-                    <input type="text" placeholder="Text......"
-                        style="padding: 15%; border-radius: 2%; margin-bottom: 2%;" />
-                    <input type="text" placeholder="enter email" size="80%" style="padding: 2%; margin-bottom: 2%" />
-                    <a href="./letterImg.html">
-                        <button style="padding: 2%;">Sumbit</button>
-                    </a>
-                </td>
-            </tr>
-        </table>
+        
+            <form id="container" action="./letterImg.html">
+                <h1>Contact Me</h1>
+                <div class="group_input">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="email@mail.com" required>
+                </div>
+                <div class="group_input">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="44" rows="17" placeholder="Hi....." required></textarea>
+                </div> 
+                <div class="blog">
+                    <label for="subscribe">Subscribe for blog updates? </label>
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                </div>
+
+                <button class="btn">Submit</button>
+            </form>
+        
     </main>
+    
+    
     <footer>
-        <table style="padding-top: 2%;">
+        <table id="footer">
 
-            <tr style="margin-top: 40%;">
-                <td style="width: 2%; column-width: 2px; padding-left: 10%;">
+            <tr>
+
+                <td style="width: 2%;">
                     <a href="https://www.instagram.com/tmaty_/">
-                        <img src="./assets/logo/undraw_camera (1).svg" height="30px" />
-                        <p style="font-size: x-small;">Instagram</p>
+                        <img src="./assets/logo/instagram.png" height="30px" alt="instagram logo"/>
                     </a>
                 </td>
-                <td style="width: 2%; column-width: 2px;">
+                <td style="width: 2%; ">
                     <a href="https://twitter.com/tmaty_">
-                        <img src="./assets/logo/undraw_bird (1).svg" height="30px" />
-                        <p style="font-size: x-small;">Twitter</p>
+                        <img src="./assets/logo/twitter.png" height="30px" alt="Twitter logo"/>
                     </a>
-
                 </td>
-                <td style="width: 2%; column-width: 2px; padding-right: 30%;">
+
+                <td style="width: 2%; ">
                     <a href="https://undraw.co/">
-                        Image Source: unDraw
+                        <img src="./assets/logo/linkedin.png" height="30" alt="linkedin logo"/>
+                    </a>
+                </td>
+
+                <td style="width: 2%; ">
+                    <a href="./links.html">
+                        <img src="./assets/logo/link.png" height="30" alt="link logo"/>
                     </a>
                 </td>
 
             </tr>
         </table>
     </footer>
+
 </body>
 
 </html>

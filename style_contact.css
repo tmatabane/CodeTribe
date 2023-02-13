@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* TAG SELECTORS */
+body{
+    background: linear-gradient(270deg, #cba565 0%, #f6cd8b 35%, #ffe9a5 100%);
+}
+
+
+nav #about{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+nav a{
+    color: #582C19;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #fff;
+    background-color: #582C19;
+}
+
+/* ID SELECTORS */
+#container{
+    background-color: #cba565;
+    /* height: 80vh; */
+    margin: auto;
+    max-width: 48%;
+    padding-left: 60px;
+    font-family: 'Rajdhani', sans-serif;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #582C19;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4%;
+    margin-top: 4%;
+
+}
+
+#container h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #582C19;
+}
+
+#footer{
+    width: 40%;
+    padding-top: 2px;
+}
+
+/* CLASS SELECTORS */
+.group_input{
+    padding-top: 28px;
+    padding: 36px;
+}
+.group_input label,
+.group_input input,
+.group_input textarea{
+    margin-left: 4px;
+    padding: 4px;
+    display: block;
+    
+}
+
+.group_input input,
+.group_input textarea{
+    width: 90%;
+    border-radius: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #582C19;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 4%;
+    margin-left: 8%;
+
+    
+}
+
+.blog {
+    padding-left: 16%;
+    
+}
+
+.btn{
+    background-color: #582C19;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 6px;
+    width: 60%;
+    align-content: cente;
+    display: block;
+    margin: auto;
+}

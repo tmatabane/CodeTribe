@@ -49,6 +49,13 @@ nav a:hover {
 }
 
 /* ID SELECTORS */
+
+#footer{
+    width: 25%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
 #qoute {
     color: #582c19;
     font-family: 'Ubuntu', sans-serif;
